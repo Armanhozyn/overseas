@@ -1,0 +1,11 @@
+<script src="public/assets/js/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+<script src="public/assets/js/owl.js"></script>
+<script src="public/assets/js/wow.js"></script>
+<script src="public/assets/js/validation.js"></script>
+<script src="public/assets/js/jquery.fancybox.js"></script>
+<script src="public/assets/js/appear.js"></script>
+<script src="public/assets/js/scrollbar.js"></script>
+<script src="public/assets/js/jquery.nice-select.min.js"></script>
+<script src="public/assets/js/script.js"></script>
