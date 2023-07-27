@@ -1,5 +1,5 @@
 <!-- countries-section end -->
-<section class="countries-section centred" style="background-image: url(assets/images/background/service-bg.jpg);">
+<section class="countries-section centred" style="background-image: url(public/assets/images/background/service-bg.jpg);">
     <div class="auto-container">
         <div class="sec-title centred light">
             <h6>Welcome to well-up overseas</h6>

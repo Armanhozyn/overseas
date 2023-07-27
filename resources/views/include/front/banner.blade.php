@@ -2,7 +2,7 @@
 <section class="banner-section">
     <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url(assets/images/banner/banner-1.jpg)"></div>
+            <div class="image-layer" style="background-image:url(public/assets/images/banner/banner-1.jpg)"></div>
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-xl-6 col-lg-12 content-column">
@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="slide-item style-two">
-            <div class="image-layer" style="background-image:url(assets/images/banner/banner-2.jpg)"></div>
+            <div class="image-layer" style="background-image:url(public/assets/images/banner/banner-2.jpg)"></div>
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-xl-6 col-lg-12 content-column offset-xl-6">
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url(assets/images/banner/banner-3.jpg)"></div>
+            <div class="image-layer" style="background-image:url(public/assets/images/banner/banner-3.jpg)"></div>
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-xl-6 col-lg-12 content-column">
