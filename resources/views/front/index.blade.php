@@ -60,7 +60,7 @@
                                         style="background-image: url({{ asset('assets/images/shape/shape-5.png') }});">
                                     </div>
                                     <div class="text">
-                                        <h2>14</h2>
+                                        <h2>5</h2>
                                         <h6>Years of <br>Experienced</h6>
                                     </div>
                                 </div>
