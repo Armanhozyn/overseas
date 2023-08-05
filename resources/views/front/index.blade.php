@@ -421,7 +421,7 @@
                                 </figure>
                             </div>
                             <div class="lower-content">
-                                <h4><a href="#">Mohammed Monowar Hossain</a></h4>
+                                <h4><a href="#">Md Arshad Ullah</a></h4>
                                 <span class="designation">Managing Directot(Oman)</span>
                             </div>
                         </div>
@@ -437,8 +437,8 @@
                                 </figure>
                             </div>
                             <div class="lower-content">
-                                <h4><a href="#">Kaiser Hamid</a></h4>
-                                <span class="designation">Managing Directot(UAE)</span>
+                                <h4><a href="#">Mohammad Zahed Parvez Chowdhury</a></h4>
+                                <span class="designation">Managing Director(UAE)</span>
                             </div>
                         </div>
                     </div>
@@ -453,8 +453,8 @@
                                 </figure>
                             </div>
                             <div class="lower-content">
-                                <h4><a href="#">Tiblu Barua</a></h4>
-                                <span class="designation">representative(uae)</span>
+                                <h4><a href="#">Hamad Rashed Abdulla Khamis Alghaith</a></h4>
+                                <span class="designation">Representative(uae)</span>
                             </div>
                         </div>
                     </div>
