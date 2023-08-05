@@ -29,7 +29,11 @@
                             <td>{{ $value->route }}</td>
                             <td>
                                 <a href="{{ route('submenu.edit',$value->id) }}" class="btn btn-primary btn-sm">Edit</a>
-                                <a href="{{ route('submenu.destroy',$value->id) }}" class="btn btn-danger btn-sm">Delete</a>
+                                <form action="{{ route('submenu.destroy', $value->id) }}" method="POST" class="d-inline-block">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn btn-danger btn-sm" name="destroy">Delete</button>
+                                </form>
                             </td>
                         </tr>
                         @endforeach

@@ -25,7 +25,7 @@
         </div>
     </section>
     <!-- service start  -->
-    <section class="about-style-six">
+    <section class="about-style-six" style="background-color: #F3F3F3;">
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="col-12">

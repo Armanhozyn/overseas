@@ -11,7 +11,7 @@ class SubmenuController extends Controller
 {
     public function index()
     {
-        $submenus = Submenu::orderBy('created_at', 'ASC')->get();
+        $submenus = Submenu::orderBy('id', 'ASC')->get();
         return view('backend.submenu.index', compact('submenus'));
     }
 
@@ -67,5 +67,8 @@ class SubmenuController extends Controller
 
     public function destroy($id)
     {
+        $page = Submenu::find($id);
+        $page->delete();
+        return back()->with('success', 'Deleted Successfuly');
     }
 }
