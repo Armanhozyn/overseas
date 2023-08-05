@@ -25,7 +25,7 @@
         </div>
     </div>
     <!-- header-lower -->
-    <div class="container">
+    <div class="" style="padding: 0px 40px;">
         <div class="outer-box clearfix">
             <div class="menu-area pull-left clearfix">
                 <!--Mobile Navigation Toggler-->
