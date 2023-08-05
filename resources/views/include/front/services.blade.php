@@ -1,5 +1,6 @@
 <!-- countries-section end -->
-<section class="countries-section centred" style="background-image: url(public/assets/images/background/service-bg.jpg);">
+<section class="countries-section centred"
+    style="background-image: url({{ asset('assets/images/background/service-bg.jpg') }});">
     <div class="auto-container">
         <div class="sec-title centred light">
             <h6>Welcome to well-up overseas</h6>
@@ -32,9 +33,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-1.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-1.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In USA..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-1.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-1.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In USA..</a>
+                                    </div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -50,9 +55,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-2.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-2.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Aus..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-2.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-2.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In Aus..</a>
+                                    </div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -68,9 +77,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-3.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-3.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Canada..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-3.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-3.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Canada..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -86,9 +99,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-1.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-1.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In USA..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-1.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-1.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In USA..</a>
+                                    </div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -104,9 +121,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-2.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-2.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Aus..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-2.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-2.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In Aus..</a>
+                                    </div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -122,9 +143,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-3.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-3.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Canada..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-3.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-3.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Canada..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -140,9 +165,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-1.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-1.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In USA..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-1.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-1.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            USA..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -158,9 +187,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-2.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-2.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Aus..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-2.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-2.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Aus..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -176,9 +209,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-3.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-3.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Canada..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-3.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-3.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Canada..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -194,9 +231,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-3.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-3.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Canada..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-3.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-3.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Canada..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -216,9 +257,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-1.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-1.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In USA..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-1.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-1.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            USA..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -234,9 +279,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-2.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-2.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Aus..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-2.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-2.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Aus..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -252,9 +301,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-3.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-3.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Canada..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-3.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-3.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Canada..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -270,9 +323,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-1.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-1.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In USA..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-1.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-1.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            USA..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -288,9 +345,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-2.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-2.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Aus..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-2.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-2.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Aus..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -306,9 +367,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-3.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-3.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Canada..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-3.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-3.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Canada..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -328,9 +393,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-1.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-1.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In USA..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-1.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-1.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            USA..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -346,9 +415,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-2.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-2.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Aus..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-2.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-2.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Aus..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -364,9 +437,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-3.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-3.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Canada..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-3.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-3.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Canada..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -382,9 +459,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-1.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-1.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In USA..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-1.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-1.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            USA..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -404,9 +485,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-1.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-1.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In USA..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-1.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-1.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            USA..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -422,9 +507,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-2.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-2.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Aus..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-2.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-2.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Aus..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -440,9 +529,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-3.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-3.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Canada..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-3.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-3.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Canada..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -458,9 +551,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-1.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-1.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In USA..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-1.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-1.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            USA..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">
@@ -476,9 +573,13 @@
                         <div class="countries-block-one">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <div class="flag"><img src="public/assets/images/resource/flag-2.jpg" alt="wellup overseas"></div>
-                                    <figure class="image"><img src="public/assets/images/resource/country-2.jpg" alt="wellup overseas"></figure>
-                                    <div class="link"><a href="countries-details.html">8 Big Universities In Aus..</a></div>
+                                    <div class="flag"><img src="{{ asset('assets/images/resource/flag-2.jpg') }}"
+                                            alt="wellup overseas"></div>
+                                    <figure class="image"><img
+                                            src="{{ asset('assets/images/resource/country-2.jpg') }}"
+                                            alt="wellup overseas"></figure>
+                                    <div class="link"><a href="countries-details.html">8 Big Universities In
+                                            Aus..</a></div>
                                 </div>
                                 <div class="lower-content">
                                     <div class="text">

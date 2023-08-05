@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Carbon\Carbon;
 use App\Models\Menu;
 use App\Models\Page;
 use App\Models\User;
@@ -42,7 +43,7 @@ class PageController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'route_id' => 'required',
+            'route_id' => 'required|unique:pages,submenu_id',
             'title' => 'required',
             'picture' => 'required|image|mimes:jpeg,png,jpg,gif,webp,svg|max:1025',
             'description' => 'required'
@@ -119,23 +120,17 @@ class PageController extends Controller
             $fileName = pathinfo($originName, PATHINFO_FILENAME);
             $fileName = $fileName . '_' . time() . '.' . $extension;
 
-            $path = public_path('/storage/img/pages');
+            $path = public_path('/uploads/pages');
             if (!File::exists($path)) {
                 mkdir($path, 0777, true);
             }
             $processingImage->move($path, $fileName);
 
-            $page = Page::find($id);
-            $oldPath = public_path() . '/storage/img/pages/' . $page->picture;
-            if (File::exists($oldPath)) {
-                unlink($oldPath);
-            }
-
             Page::find($id)->update([
                 'title' => $request->title,
-                'picture' => $fileName,
+                'image' => $fileName,
                 'description' => $request->description,
-                // 'updated_at' => Carbon::now()
+                'updated_at' => Carbon::now()
             ]);
             return back()->with('success', 'Stored Successfully');
         } else {

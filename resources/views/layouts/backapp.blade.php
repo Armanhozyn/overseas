@@ -14,6 +14,21 @@
 </head>
 
 <body data-sidebar="dark" data-layout-mode="light">
+    @if ($errors->any())
+    <div id="error-box" style="position: fixed; top: 100px; right: 25px; z-index:1000; width: 20%;">
+        <div class="alert alert-danger" role="alert" style=" margin: 0 auto;">
+            @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+            @endforeach
+        </div>
+    </div>
+    @elseif (Session::has('success'))
+    <div id="error-box" style="position: fixed; top: 100px; right: 25px; z-index:1000; width: 20%;">
+        <div class="alert alert-success" role="alert" style=" margin: 0 auto;">
+            {{ session('success') }}
+        </div>
+    </div>
+    @endif
     <!-- <body data-layout="horizontal" data-topbar="dark"> -->
     <!-- Begin page -->
     <div id="layout-wrapper">

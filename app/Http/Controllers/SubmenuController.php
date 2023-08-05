@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Menu;
 use App\Models\Submenu;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 
 class SubmenuController extends Controller
@@ -22,6 +23,7 @@ class SubmenuController extends Controller
 
     public function store(Request $request)
     {
+        $route = Str::slug($request->name);
         $request->validate([
             'menu_id' => 'required',
             'name' => 'required',
@@ -30,7 +32,7 @@ class SubmenuController extends Controller
 
         $submenu->menu_id = $request->menu_id;
         $submenu->name = $request->name;
-        $submenu->route = $request->route;
+        $submenu->route = $route;
         $submenu->save();
 
         return redirect(route('submenus'))->with('success', 'Stored Successfully');
@@ -49,6 +51,7 @@ class SubmenuController extends Controller
 
     public function update(Request $request, $id)
     {
+        $route = Str::slug($request->name);
         $request->validate([
             'name' => 'required',
         ]);
@@ -56,7 +59,7 @@ class SubmenuController extends Controller
 
         $submenu->menu_id = $request->menu_id;
         $submenu->name = $request->name;
-        $submenu->route = $request->route;
+        $submenu->route = $route;
         $submenu->save();
 
         return redirect(route('submenus'))->with('success', 'Updated Successfully');

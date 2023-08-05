@@ -39,7 +39,8 @@ class BasicRoutesController extends Controller
     public function loadPage($id)
     {
         $submenu_id = Submenu::where('name', $id)->first();
-        $page = Page::findOrFail($submenu_id->id);;
+        $page = Page::where('submenu_id', $submenu_id->id)->first();
+        // dd($page);
         return view('front.loadPage', compact('submenu_id', 'page'));
     }
 

@@ -1,4 +1,4 @@
-<link href="public/assets/css/font-awesome-all.css" rel="stylesheet">
+<link href="{{ asset('assets/css/font-awesome-all.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/flaticon.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/owl.css') }}" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">

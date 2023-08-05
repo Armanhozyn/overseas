@@ -13,6 +13,7 @@
             <form action="{{ route('page.update', $data->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
+                <input type="hidden" name="id" value="{{ $data->id }}">
                 <div class="my-3">
                     <label for="inputTitle">Title:</label>
                     <input type="text" class="form-control" name="title" id="inputTitle" placeholder="Input  Name here"
@@ -23,8 +24,8 @@
                 </div>
                 <div class="col-12">
                     <label for="inputPicture">Picture:</label><br>
-                    <img src="{{ asset('storage/img/pages/' . $data->picture) }}" alt="wellup overseas" class="img-fluid rounded"><br><br>
-                    <input type="hidden" name="old_picture" value="{{ $data->picture }}">
+                    <img src="{{ asset('uploads/pages/' . $data->image) }}" alt="wellup overseas" class="img-fluid rounded" style="height: 150px;"><br><br>
+                    <input type="hidden" name="old_picture" value="{{ $data->image }}">
                     <input type="file" class="form-control" name="picture" id="inputPicture"
                         placeholder="Input picture here" value="{{ old('picture') }}">
                     @error('picture')
