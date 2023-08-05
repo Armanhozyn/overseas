@@ -243,7 +243,7 @@
     <section class="chooseus-section bg-color-1 centred">
         <div class="auto-container">
             <div class="sec-title centred">
-                <h6>Who We Are</h6>
+                <h6><span class="h3">Who We Are</span></h6>
             </div>
             <div class="inner-content">
                 <div class="row clearfix">
@@ -251,7 +251,8 @@
                         <div class="chooseus-block-one">
                             <div class="inner-box">
                                 <p style="text-align: justify;">
-                                    Well-up Recruitment is a boutique recruitment firm that specializes in matching the right
+                                    Well-up Recruitment is a boutique recruitment firm that specializes in matching the
+                                    right
                                     talent to the right job. We are a preferred
                                     Recruitment Partner as we a have the knack of finding the well-up for your missing
                                     puzzle in your organization. We work on exclusive
@@ -265,7 +266,67 @@
                 </div>
             </div>
             <div class="sec-title centred">
-                <h6>Our flexibility Makes Us Different</h6>
+                <h6><span class="h3">OUR MISSION</span></h6>
+            </div>
+            <div class="inner-content">
+                <div class="row clearfix">
+                    <div class="col-md-8 chooseus-block">
+                        <div class="chooseus-block-one">
+                            <div class="inner-box">
+                                <p style="text-align: justify;">
+                                    Our mission is to be the most reliable and trustworthy global recruitment partner to
+                                    both our clients and candidates. By developing resilient relations with various business
+                                    entities and studying their corporate culture, we apply the executive search process
+                                    that outlines a candidate’s role in the organization. To fulfill our commitment, we
+                                    integrate comprehensive recruitment service strategies which are embedded in our
+                                    business principles. Our approach is to invest time and effort in enhancing the skills
+                                    of the workforce and use our existing databases as a source to find valuable candidates.
+                                    By fulfilling a number of projects for various multinational companies, we have garnered
+                                    appreciation from the industry. Through our advertising and selection process,
+                                    administrative and support services, post-selection synchronization, reference checks,
+                                    and manpower outsourcing activities of selected candidates, we have placed some of the
+                                    brightest professionals in a variety of positions for the firm’s longevity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{{ asset('assets/images/resource/mission.jpg') }}" alt="wellupworld" style="width: 100%; height:100%;">
+                    </div>
+                </div>
+            </div>
+            <div class="sec-title centred">
+                <h6><span class="h3">OUR VISSION</span></h6>
+            </div>
+            <div class="inner-content">
+                <div class="row clearfix">
+                    <div class="col-md-4">
+                        <img src="{{ asset('assets/images/resource/vission.jpg') }}" alt="wellupworld" style="width: 100%; height:100%;">
+                    </div>
+                    <div class="col-md-8 chooseus-block">
+                        <div class="chooseus-block-one">
+                            <div class="inner-box">
+                                <p style="text-align: justify;">
+                                    WELL-UP Recruitment Agency aspires to be the most trusted global recruitment partner. In
+                                    order to improve performance and create progressive transformation in management,
+                                    companies need to hire knowledgeable and well-trained professionals. We endeavor to be
+                                    the platform through which clients can acquire their suitable match and candidates can
+                                    pursue their careers with their ideal organization. To ensure the satisfaction of both
+                                    parties, we work in close collaboration with diverse industries so that staffing needs
+                                    are consistently met. With a qualified team of consultants, our goal is to provide
+                                    excellent service to our customers who belong to the national and international arena.
+                                    By providing exceptional customer service and competitive pricing, we believe that we
+                                    have the ability to identify the right applicant and place them in an establishment that
+                                    will further enhance their skill. We desire to be the best in the industry by helping
+                                    the employer and employees achieve success through our recruitment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-title centred">
+                <h6><span class="h3">Our flexibility Makes Us Different</span></h6>
             </div>
             <div class="inner-content">
                 <div class="row clearfix">
@@ -466,206 +527,206 @@
 
 
     <!-- testimonial-section
-                                    <section class="testimonial-section" style="background-image: url(public/assets/images/background/testimonial-bg.jpg);">
-                                        <div class="auto-container">
-                                            <div class="sec-title light">
-                                                <h6>Client Reviews</h6>
-                                                <h2>Feedback From Our Clients</h2>
-                                            </div>
-                                            <div class="three-item-carousel owl-carousel owl-theme owl-dots-none">
-                                                <div class="testimonial-block-one">
-                                                    <div class="inner-box">
-                                                        <div class="text">
-                                                            <h4>Smooth & Efficient Service!...</h4>
-                                                            <p>Well-up Overseas Consultancy is definitely a highly recommended canadian an migration agency. A big applause & very grateful to Mr.Richardson for efforts and assistance.</p>
+                                            <section class="testimonial-section" style="background-image: url(public/assets/images/background/testimonial-bg.jpg);">
+                                                <div class="auto-container">
+                                                    <div class="sec-title light">
+                                                        <h6>Client Reviews</h6>
+                                                        <h2>Feedback From Our Clients</h2>
+                                                    </div>
+                                                    <div class="three-item-carousel owl-carousel owl-theme owl-dots-none">
+                                                        <div class="testimonial-block-one">
+                                                            <div class="inner-box">
+                                                                <div class="text">
+                                                                    <h4>Smooth & Efficient Service!...</h4>
+                                                                    <p>Well-up Overseas Consultancy is definitely a highly recommended canadian an migration agency. A big applause & very grateful to Mr.Richardson for efforts and assistance.</p>
+                                                                </div>
+                                                                <div class="lower-box">
+                                                                    <div class="quote"><img src="public/assets/images/icons/quote-1.png" alt="wellup overseas"></div>
+                                                                    <figure class="author-thumb"><img src="public/assets/images/resource/testimonial-1.jpg" alt="wellup overseas"></figure>
+                                                                    <ul class="rating clearfix">
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                    </ul>
+                                                                    <h4>Silverster Scott, <span>Netherland</span></h4>
+                                                                    <span class="date">October 10, 2021</span>
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                        <div class="lower-box">
-                                                            <div class="quote"><img src="public/assets/images/icons/quote-1.png" alt="wellup overseas"></div>
-                                                            <figure class="author-thumb"><img src="public/assets/images/resource/testimonial-1.jpg" alt="wellup overseas"></figure>
-                                                            <ul class="rating clearfix">
-                                                                <li><i class="flaticon-star"></i></li>
-                                                                <li><i class="flaticon-star"></i></li>
-                                                                <li><i class="flaticon-star"></i></li>
-                                                                <li><i class="flaticon-star"></i></li>
-                                                                <li><i class="flaticon-star"></i></li>
-                                                            </ul>
-                                                            <h4>Silverster Scott, <span>Netherland</span></h4>
-                                                            <span class="date">October 10, 2021</span>
+                                                        <div class="testimonial-block-one">
+                                                            <div class="inner-box">
+                                                                <div class="text">
+                                                                    <h4>Thank You Well-up Overseas!...</h4>
+                                                                    <p>Well-up Overseas visa consultancy is the best we came across while doing market research & migrating to Canada. All informations conveyed were correct genuine and helpful.</p>
+                                                                </div>
+                                                                <div class="lower-box">
+                                                                    <div class="quote"><img src="public/assets/images/icons/quote-1.png" alt="wellup overseas"></div>
+                                                                    <figure class="author-thumb"><img src="public/assets/images/resource/testimonial-2.jpg" alt="wellup overseas"></figure>
+                                                                    <ul class="rating clearfix">
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                    </ul>
+                                                                    <h4>Nora Penelope, <span>Switcherland</span></h4>
+                                                                    <span class="date">October 09, 2021</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="testimonial-block-one">
+                                                            <div class="inner-box">
+                                                                <div class="text">
+                                                                    <h4>Highly Recommended!...</h4>
+                                                                    <p>Awesome customer service, they know what they are doing. Straight to the point, help with the forms if you need it. Amazing results always. We 100% recommend to others.</p>
+                                                                </div>
+                                                                <div class="lower-box">
+                                                                    <div class="quote"><img src="public/assets/images/icons/quote-1.png" alt="wellup overseas"></div>
+                                                                    <figure class="author-thumb"><img src="public/assets/images/resource/testimonial-3.jpg" alt="wellup overseas"></figure>
+                                                                    <ul class="rating clearfix">
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                        <li><i class="flaticon-star"></i></li>
+                                                                    </ul>
+                                                                    <h4>Arlo Sebastian, <span>Australia</span></h4>
+                                                                    <span class="date">October 09, 2021</span>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="testimonial-block-one">
-                                                    <div class="inner-box">
-                                                        <div class="text">
-                                                            <h4>Thank You Well-up Overseas!...</h4>
-                                                            <p>Well-up Overseas visa consultancy is the best we came across while doing market research & migrating to Canada. All informations conveyed were correct genuine and helpful.</p>
-                                                        </div>
-                                                        <div class="lower-box">
-                                                            <div class="quote"><img src="public/assets/images/icons/quote-1.png" alt="wellup overseas"></div>
-                                                            <figure class="author-thumb"><img src="public/assets/images/resource/testimonial-2.jpg" alt="wellup overseas"></figure>
-                                                            <ul class="rating clearfix">
-                                                                <li><i class="flaticon-star"></i></li>
-                                                                <li><i class="flaticon-star"></i></li>
-                                                                <li><i class="flaticon-star"></i></li>
-                                                                <li><i class="flaticon-star"></i></li>
-                                                                <li><i class="flaticon-star"></i></li>
-                                                            </ul>
-                                                            <h4>Nora Penelope, <span>Switcherland</span></h4>
-                                                            <span class="date">October 09, 2021</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="testimonial-block-one">
-                                                    <div class="inner-box">
-                                                        <div class="text">
-                                                            <h4>Highly Recommended!...</h4>
-                                                            <p>Awesome customer service, they know what they are doing. Straight to the point, help with the forms if you need it. Amazing results always. We 100% recommend to others.</p>
-                                                        </div>
-                                                        <div class="lower-box">
-                                                            <div class="quote"><img src="public/assets/images/icons/quote-1.png" alt="wellup overseas"></div>
-                                                            <figure class="author-thumb"><img src="public/assets/images/resource/testimonial-3.jpg" alt="wellup overseas"></figure>
-                                                            <ul class="rating clearfix">
-                                                                <li><i class="flaticon-star"></i></li>
-                                                                <li><i class="flaticon-star"></i></li>
-                                                                <li><i class="flaticon-star"></i></li>
-                                                                <li><i class="flaticon-star"></i></li>
-                                                                <li><i class="flaticon-star"></i></li>
-                                                            </ul>
-                                                            <h4>Arlo Sebastian, <span>Australia</span></h4>
-                                                            <span class="date">October 09, 2021</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                        testimonial-section end -->
+                                            </section>
+                                                testimonial-section end -->
 
 
     <!-- news-section
-                                    <section class="news-section">
-                                        <div class="auto-container">
-                                            <div class="sec-title centred">
-                                                <h6>News & Updates</h6>
-                                                <h2>Read Our Latest Insights</h2>
-                                            </div>
-                                            <div class="row clearfix">
-                                                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                                                    <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                                        <div class="inner-box">
-                                                            <div class="image-box">
-                                                                <h2>14<span>Oct</span></h2>
-                                                                <figure class="image"><a href="#"><img src="public/assets/images/news/news-1.jpg" alt="wellup overseas"></a></figure>
-                                                            </div>
-                                                            <div class="lower-content">
-                                                                <div class="author-box">
-                                                                    <figure class="author-thumb"><img src="public/assets/images/news/author-1.jpg" alt="wellup overseas"></figure>
-                                                                    <h6><a href="#">Immigration</a></h6>
-                                                                    <span>Post By: Colmin ONeill</span>
+                                            <section class="news-section">
+                                                <div class="auto-container">
+                                                    <div class="sec-title centred">
+                                                        <h6>News & Updates</h6>
+                                                        <h2>Read Our Latest Insights</h2>
+                                                    </div>
+                                                    <div class="row clearfix">
+                                                        <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                                                            <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                                                <div class="inner-box">
+                                                                    <div class="image-box">
+                                                                        <h2>14<span>Oct</span></h2>
+                                                                        <figure class="image"><a href="#"><img src="public/assets/images/news/news-1.jpg" alt="wellup overseas"></a></figure>
+                                                                    </div>
+                                                                    <div class="lower-content">
+                                                                        <div class="author-box">
+                                                                            <figure class="author-thumb"><img src="public/assets/images/news/author-1.jpg" alt="wellup overseas"></figure>
+                                                                            <h6><a href="#">Immigration</a></h6>
+                                                                            <span>Post By: Colmin ONeill</span>
+                                                                        </div>
+                                                                        <h4><a href="#">Citizenship Concept on How to Become a UK Citizen</a></h4>
+                                                                        <p>Laborious physical exercise excepts obtain some advantage from...</p>
+                                                                        <div class="lower-box clearfix">
+                                                                            <div class="link pull-left"><a href="#"><span>REad More</span></a></div>
+                                                                            <ul class="info clearfix pull-right">
+                                                                                <li><i class="far fa-heart"></i><a href="#">36</a></li>
+                                                                                <li><i class="far fa-comment"></i><a href="#">08</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-                                                                <h4><a href="#">Citizenship Concept on How to Become a UK Citizen</a></h4>
-                                                                <p>Laborious physical exercise excepts obtain some advantage from...</p>
-                                                                <div class="lower-box clearfix">
-                                                                    <div class="link pull-left"><a href="#"><span>REad More</span></a></div>
-                                                                    <ul class="info clearfix pull-right">
-                                                                        <li><i class="far fa-heart"></i><a href="#">36</a></li>
-                                                                        <li><i class="far fa-comment"></i><a href="#">08</a></li>
-                                                                    </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                                                            <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                                                <div class="inner-box">
+                                                                    <div class="image-box">
+                                                                        <h2>05<span>Oct</span></h2>
+                                                                        <figure class="image"><a href="#"><img src="public/assets/images/news/news-2.jpg" alt="wellup overseas"></a></figure>
+                                                                    </div>
+                                                                    <div class="lower-content">
+                                                                        <div class="author-box">
+                                                                            <figure class="author-thumb"><img src="public/assets/images/news/author-2.jpg" alt="wellup overseas"></figure>
+                                                                            <h6><a href="#">Resident Visa</a></h6>
+                                                                            <span>Post By: Layla Madison</span>
+                                                                        </div>
+                                                                        <h4><a href="#">7 Benefits of Being a Permanent Resident in Canada</a></h4>
+                                                                        <p>Foresee the pain and trouble that are bound ensue equal blame belongs...</p>
+                                                                        <div class="lower-box clearfix">
+                                                                            <div class="link pull-left"><a href="#"><span>REad More</span></a></div>
+                                                                            <ul class="info clearfix pull-right">
+                                                                                <li><i class="far fa-heart"></i><a href="#">12</a></li>
+                                                                                <li><i class="far fa-comment"></i><a href="#">03</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                                                            <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                                                <div class="inner-box">
+                                                                    <div class="image-box">
+                                                                        <h2>26<span>Sep</span></h2>
+                                                                        <figure class="image"><a href="#"><img src="public/assets/images/news/news-3.jpg" alt="wellup overseas"></a></figure>
+                                                                    </div>
+                                                                    <div class="lower-content">
+                                                                        <div class="author-box">
+                                                                            <figure class="author-thumb"><img src="public/assets/images/news/author-3.jpg" alt="wellup overseas"></figure>
+                                                                            <h6><a href="#">News & Tips</a></h6>
+                                                                            <span>Post By: Boone Gerardo</span>
+                                                                        </div>
+                                                                        <h4><a href="#">Three Common Mistakes in Visa Applications</a></h4>
+                                                                        <p>Laborious physical exercise excepts obtain some advantage from...</p>
+                                                                        <div class="lower-box clearfix">
+                                                                            <div class="link pull-left"><a href="#"><span>REad More</span></a></div>
+                                                                            <ul class="info clearfix pull-right">
+                                                                                <li><i class="far fa-heart"></i><a href="#">06</a></li>
+                                                                                <li><i class="far fa-comment"></i><a href="#">15</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                                                    <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                                        <div class="inner-box">
-                                                            <div class="image-box">
-                                                                <h2>05<span>Oct</span></h2>
-                                                                <figure class="image"><a href="#"><img src="public/assets/images/news/news-2.jpg" alt="wellup overseas"></a></figure>
-                                                            </div>
-                                                            <div class="lower-content">
-                                                                <div class="author-box">
-                                                                    <figure class="author-thumb"><img src="public/assets/images/news/author-2.jpg" alt="wellup overseas"></figure>
-                                                                    <h6><a href="#">Resident Visa</a></h6>
-                                                                    <span>Post By: Layla Madison</span>
-                                                                </div>
-                                                                <h4><a href="#">7 Benefits of Being a Permanent Resident in Canada</a></h4>
-                                                                <p>Foresee the pain and trouble that are bound ensue equal blame belongs...</p>
-                                                                <div class="lower-box clearfix">
-                                                                    <div class="link pull-left"><a href="#"><span>REad More</span></a></div>
-                                                                    <ul class="info clearfix pull-right">
-                                                                        <li><i class="far fa-heart"></i><a href="#">12</a></li>
-                                                                        <li><i class="far fa-comment"></i><a href="#">03</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                                                    <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                                        <div class="inner-box">
-                                                            <div class="image-box">
-                                                                <h2>26<span>Sep</span></h2>
-                                                                <figure class="image"><a href="#"><img src="public/assets/images/news/news-3.jpg" alt="wellup overseas"></a></figure>
-                                                            </div>
-                                                            <div class="lower-content">
-                                                                <div class="author-box">
-                                                                    <figure class="author-thumb"><img src="public/assets/images/news/author-3.jpg" alt="wellup overseas"></figure>
-                                                                    <h6><a href="#">News & Tips</a></h6>
-                                                                    <span>Post By: Boone Gerardo</span>
-                                                                </div>
-                                                                <h4><a href="#">Three Common Mistakes in Visa Applications</a></h4>
-                                                                <p>Laborious physical exercise excepts obtain some advantage from...</p>
-                                                                <div class="lower-box clearfix">
-                                                                    <div class="link pull-left"><a href="#"><span>REad More</span></a></div>
-                                                                    <ul class="info clearfix pull-right">
-                                                                        <li><i class="far fa-heart"></i><a href="#">06</a></li>
-                                                                        <li><i class="far fa-comment"></i><a href="#">15</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    news-section end -->
+                                            </section>
+                                            news-section end -->
 
 
     <!-- clients-section
-                                    <section class="clients-section mb-5">
-                                        <div class="outer-container">
-                                            <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-                                                <figure class="clients-logo-box">
-                                                    <a href="#"><img src="public/assets/images/clients/clients-logo-1.png" alt="wellup overseas"></a>
-                                                    <span class="logo-title"><a href="#">Visit Website</a></span>
-                                                </figure>
-                                                <figure class="clients-logo-box">
-                                                    <a href="#"><img src="public/assets/images/clients/clients-logo-2.png" alt="wellup overseas"></a>
-                                                    <span class="logo-title"><a href="#">Visit Website</a></span>
-                                                </figure>
-                                                <figure class="clients-logo-box">
-                                                    <a href="#"><img src="public/assets/images/clients/clients-logo-3.png" alt="wellup overseas"></a>
-                                                    <span class="logo-title"><a href="#">Visit Website</a></span>
-                                                </figure>
-                                                <figure class="clients-logo-box">
-                                                    <a href="#"><img src="public/assets/images/clients/clients-logo-4.png" alt="wellup overseas"></a>
-                                                    <span class="logo-title"><a href="#">Visit Website</a></span>
-                                                </figure>
-                                                <figure class="clients-logo-box">
-                                                    <a href="#"><img src="public/assets/images/clients/clients-logo-5.png" alt="wellup overseas"></a>
-                                                    <span class="logo-title"><a href="#">Visit Website</a></span>
-                                                </figure>
-                                                <figure class="clients-logo-box">
-                                                    <a href="#"><img src="public/assets/images/clients/clients-logo-6.png" alt="wellup overseas"></a>
-                                                    <span class="logo-title"><a href="#">Visit Website</a></span>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    clients-section end -->
+                                            <section class="clients-section mb-5">
+                                                <div class="outer-container">
+                                                    <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
+                                                        <figure class="clients-logo-box">
+                                                            <a href="#"><img src="public/assets/images/clients/clients-logo-1.png" alt="wellup overseas"></a>
+                                                            <span class="logo-title"><a href="#">Visit Website</a></span>
+                                                        </figure>
+                                                        <figure class="clients-logo-box">
+                                                            <a href="#"><img src="public/assets/images/clients/clients-logo-2.png" alt="wellup overseas"></a>
+                                                            <span class="logo-title"><a href="#">Visit Website</a></span>
+                                                        </figure>
+                                                        <figure class="clients-logo-box">
+                                                            <a href="#"><img src="public/assets/images/clients/clients-logo-3.png" alt="wellup overseas"></a>
+                                                            <span class="logo-title"><a href="#">Visit Website</a></span>
+                                                        </figure>
+                                                        <figure class="clients-logo-box">
+                                                            <a href="#"><img src="public/assets/images/clients/clients-logo-4.png" alt="wellup overseas"></a>
+                                                            <span class="logo-title"><a href="#">Visit Website</a></span>
+                                                        </figure>
+                                                        <figure class="clients-logo-box">
+                                                            <a href="#"><img src="public/assets/images/clients/clients-logo-5.png" alt="wellup overseas"></a>
+                                                            <span class="logo-title"><a href="#">Visit Website</a></span>
+                                                        </figure>
+                                                        <figure class="clients-logo-box">
+                                                            <a href="#"><img src="public/assets/images/clients/clients-logo-6.png" alt="wellup overseas"></a>
+                                                            <span class="logo-title"><a href="#">Visit Website</a></span>
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            clients-section end -->
 
 
     <!-- contact-section end -->
