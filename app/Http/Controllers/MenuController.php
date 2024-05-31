@@ -58,5 +58,8 @@ class MenuController extends Controller
 
     public function destroy($id)
     {
+        $page = Menu::find($id);
+        $page->delete();
+        return back()->with('success', 'Deleted Successfuly');
     }
 }

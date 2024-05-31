@@ -6,7 +6,8 @@
         <div class="outer-container clearfix">
             <div class="left-column pull-left">
                 <ul class="info clearfix">
-                    <li><i class="flaticon-pin"></i>Saleh Villa ( 2nd Floor). House#14, Road No-01 O.R Nizam Road, Chattogram, Bangladesh.</li>
+                    <li><i class="flaticon-pin"></i>Saleh Villa ( 2nd Floor). House#14, Road No-01 O.R Nizam Road,
+                        Chattogram, Bangladesh.</li>
                     <li><i class="flaticon-email"></i><a href="mailto:info@wellupworld.com">info@wellupworld.com</a></li>
                 </ul>
             </div>
@@ -24,6 +25,7 @@
         </div>
     </div>
     <!-- header-lower -->
+    <div class="" style="padding: 0px 40px;">
         <div class="outer-box clearfix">
             <div class="menu-area pull-left clearfix">
                 <!--Mobile Navigation Toggler-->
@@ -36,61 +38,64 @@
                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                         <ul class="navigation clearfix">
                             <li>
-                            <div class="logo-box">
-                                <figure class="logo text-center mb-sm-3">
-                                    <a href="{{ route('home') }}">
-                                        <img src="{{ asset('assets/images/footer-logo.png') }}" alt="wellup overseas">
-                                    </a>
-                                </figure>
-                            </div>
+                                <div class="logo-box">
+                                    <figure class="logo text-center mb-sm-3">
+                                        <a href="{{ route('home') }}">
+                                            <img src="{{ asset('assets/images/footer-logo.png') }}"
+                                                alt="wellup overseas">
+                                        </a>
+                                    </figure>
+                                </div>
                             </li>
                             <li class="current dropdown"><a href="{{ route('home') }}">Home</a></li>
                             @foreach ($menus as $item)
-                            @if (count($item->submenus) >= 5)
-                            <li class="dropdown">
-                                <a href="@isset($item->route) {{ $item->route }} @endisset">{{ $item->name }}</a>
-                                <ul class="big-menu clearfix">
-                                    @foreach ($item->submenus as $value)
-                                    @isset($value->page)
-                                    @foreach ($pages as $pg)
-                                    @if ($pg->submenu_id == $value->id)
-                                    <li><a href="
-                                        @if ($pg->submenu_id == $value->id)
-                                        {{ route('loadPage',$value->name) }}
-                                        @endif">{{ $value->name }}</a></li>
-                                    @else
-                                    @continue
-                                    @endif
-                                    @endforeach
-                                    @endisset
-                                    @endforeach
-                                </ul>
-                            </li>
-                            @elseif (count($item->submenus) <= 4 && count($item->submenus) >= 1)
-                            <li class="dropdown">
-                                <a href="@isset($item->route) {{ $item->route }} @endisset">{{ $item->name }}</a>
-                                <ul>
-                                    @foreach ($item->submenus as $value)
-                                    @isset($value->page)
-                                    @foreach ($pages as $pg)
-                                    @if ($pg->submenu_id == $value->id)
-                                    <li><a href="
-                                        @if ($pg->submenu_id == $value->id)
-                                        {{ route('loadPage',$value->name) }}
-                                        @endif">{{ $value->name }}</a></li>
-                                    @else
-                                    @continue
-                                    @endif
-                                    @endforeach
-                                    @endisset
-                                    @endforeach
-                                </ul>
-                            </li>
-                            @elseif (count($item->submenus) <= 0)
-                            <li>
-                                <a href="{{ route($item->route) }}">{{ $item->name }}</a>
-                            </li>
-                            @endif
+                                @if (count($item->submenus) >= 5)
+                                    <li class="dropdown">
+                                        <a
+                                            href="@isset($item->route) {{ $item->route }} @endisset">{{ $item->name }}</a>
+                                        <ul class="big-menu clearfix">
+                                            @foreach ($item->submenus as $value)
+                                                @isset($value->page)
+                                                    @foreach ($pages as $pg)
+                                                        @if ($pg->submenu_id == $value->id)
+                                                            <li><a
+                                                                    href="
+                                            @if ($pg->submenu_id == $value->id) {{ route('loadPage', $value->name) }} @endif">{{ $value->name }}</a>
+                                                            </li>
+                                                        @else
+                                                            @continue
+                                                        @endif
+                                                    @endforeach
+                                                @endisset
+                                            @endforeach
+                                        </ul>
+                                    </li>
+                                @elseif (count($item->submenus) <= 4 && count($item->submenus) >= 1)
+                                    <li class="dropdown">
+                                        <a
+                                            href="@isset($item->route) {{ $item->route }} @endisset">{{ $item->name }}</a>
+                                        <ul>
+                                            @foreach ($item->submenus as $value)
+                                                @isset($value->page)
+                                                    @foreach ($pages as $pg)
+                                                        @if ($pg->submenu_id == $value->id)
+                                                            <li><a
+                                                                    href="
+                                            @if ($pg->submenu_id == $value->id) {{ route('loadPage', $value->name) }} @endif">{{ $value->name }}</a>
+                                                            </li>
+                                                        @else
+                                                            @continue
+                                                        @endif
+                                                    @endforeach
+                                                @endisset
+                                            @endforeach
+                                        </ul>
+                                    </li>
+                                @elseif (count($item->submenus) <= 0)
+                                    <li>
+                                        <a href="{{ route($item->route) }}">{{ $item->name }}</a>
+                                    </li>
+                                @endif
                             @endforeach
                             <li><a href="{{ route('contact') }}">Contact</a></li>
                         </ul>
@@ -107,6 +112,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
     <!--sticky Header-->
     <div class="sticky-header">
@@ -118,7 +124,8 @@
             </div>
             <div class="menu-right-content pull-right">
                 <div class="support-box">
-                    <div class="image"><img src="{{ asset('assets/images/resource/support-1.jpg') }}" alt="wellup overseas"></div>
+                    <div class="image"><img src="{{ asset('assets/images/resource/support-1.jpg') }}"
+                            alt="wellup overseas"></div>
                     <h6>Enquiries</h6>
                     <h5><a href="tel:+8801883403375">+880 1883 40 33 75</a></h5>
                 </div>
